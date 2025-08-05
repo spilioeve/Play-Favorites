@@ -10,7 +10,7 @@ This directory (`data`) contains CSV files with model evaluation results, separa
 - `Logical robustness.csv`
 - `Faithfulness.csv` *(ratings only from `cnn` and `xsum` datasets)*
 - `Conciseness.csv`
-- `prompts_and_completions.csv`
+- `prompts_ids.csv`
 
 ## Columns
 
