@@ -10,7 +10,7 @@ This directory (`data`) contains CSV files with model evaluation results, separa
 - `Logical robustness.csv`
 - `Faithfulness.csv` *(ratings only from `cnn` and `xsum` datasets)*
 - `Conciseness.csv`
-- `prompts_ids.csv`
+- `indexer_prompts.csv`
 
 ## Columns
 
@@ -33,4 +33,5 @@ The additional file include, besides the prompt_id:
 | Column      | Description                                             |
 |-------------|---------------------------------------------------------|
 | prompt      | Prompt.                                                 |
-| completion  | Generated completion.                                   |
+| prediction  | Generated completion.                                   |
+| model       | The LLM that generated the completion                   |
