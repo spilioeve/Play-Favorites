@@ -1,0 +1,7 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+pygam  # optional, only if you want to run the GAM section
