@@ -1,4 +1,4 @@
-# [Playing Favorites: A Statistical Method to Measure Self-Bias in LLM-as-a-Judge](https://arxiv.org/abs/2508.06709)
+# [Play Favorites: A Statistical Method to Measure Self-Bias in LLM-as-a-Judge](https://arxiv.org/abs/2508.06709)
 
 This repository contains code and human annotation data for **measuring and quantifying self-bias in LLM-as-a-judge** evaluations, as described in our paper.
 
@@ -83,14 +83,11 @@ The filenames must match the dimension names in `config.py`’s `DEFAULT_DIMENSI
 If you use this code or data, please cite our paper:
 
 ```bibtex
-@misc{spiliopoulou2025playfavoritesstatisticalmethod,
-      title={Playing Favorites: A Statistical Method to Measure Self-Bias in LLM-as-a-Judge}, 
-      author={Evangelia Spiliopoulou and Riccardo Fogliato and Hanna Burnsky and Tamer Soliman and Jie Ma and Graham Horwood and Miguel Ballesteros},
-      year={2025},
-      eprint={2508.06709},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.06709}, 
+@article{spiliopoulou2025play,
+  title={Play Favorites: A Statistical Method to Measure Self-Bias in LLM-as-a-Judge},
+  author={Spiliopoulou, Evangelia and Fogliato, Riccardo and Burnsky, Hanna and Soliman, Tamer and Ma, Jie and Horwood, Graham and Ballesteros, Miguel},
+  journal={arXiv preprint arXiv:2508.06709},
+  year={2025}
 }
 ```
 
